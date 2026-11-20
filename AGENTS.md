@@ -1,19 +1,5 @@
-# AGENTS.md
+# Agent instructions
 
-This repository is a **prompt package**. It contains no software.
+Read [PLAYBOOK.md](PLAYBOOK.md) for this personalized workflow. Use the personalized PLAYBOOK.md as the authoritative workflow. Create heartfelt photorealistic VideoExpress episodes lasting 60–180 seconds with up to four recurring characters. Accept the user's script and preserve its story and requested wording. Use the user's supplied character images; generate and save a reusable reference for a needed additional character. The little girl should look innocent, precious, age appropriate, and faithful to her reference images. Narration only: Aria voice, General settings; characters do not speak or lip-sync. Plan around the app's actual reference-slot limits. Keep generated assets organized for reuse. Match the user's requested format and other preferences.
 
-## What to do
-1. Open `PLAYBOOK.md` (the full instructions) and follow it exactly, starting at **Section 1 (Intake)**.
-2. Do all production work in the VideoExpress web app (https://app.videoexpress.ai/) with your **browser tool**.
-3. The one file action allowed is uploading the user's reference photos into **Media Library → My Media → Images** (Upload file → + Add files → Upload files), then picking them into **Use Consistent Character → Reference Photo / Reference Photo 2**. If your browser tool can't upload files, ask the user to do it in the open tab and reply "done".
-4. Optional reading: `examples/` (worked jobs to imitate), `docs/video-prompting.md` (multi-shot video prompting) and `skills/realistic-consistent-character-videos/references/` (UI click map).
-
-## What NOT to do
-- Do not run any commands, scripts, tests, installs, linters, Python, Node or shell.
-- Do not build, validate, scan or package anything. There is no CLI.
-- Do not run a capability audit, readiness check, model verification or approval gate.
-- Do not ask the user for anything except the Section 1 intake (photos, story, accent), a photo upload you can't do, the one-time Consistent Character **I Agree** disclaimer, a sign-in, or a Terms/credits screen they must click themselves. Never click I Agree yourself.
-- Do not make sexual, humiliating, hateful, political-impersonation, fake-news or deceptive content of the real people in the photos, and never work with photos of children.
-
-## Why
-Sandboxed agents such as Codex tend to launch local processes. The sandbox refuses them with a "process security error", which can also take down the browser runtime, and the job stops before any video is made. This workflow needs nothing but the browser.
+The original examples, UI references and historical documentation may describe the earlier speaking-character workflow; use them only where they do not conflict with PLAYBOOK.md or the user's current instructions. Respect the user's requested production scope and report actual saves, renders and blockers.
